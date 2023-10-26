@@ -36,6 +36,7 @@ function showReposInfo(userName){
        
     })
 
+
 }   
 
 showDetailsButton.addEventListener('click',()=>{

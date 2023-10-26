@@ -1,5 +1,3 @@
-/* Apply a soothing background gradient to the body */
-/* Apply a soothing background color to the body */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
@@ -29,7 +27,7 @@ h1 {
 
 /* Input styles with a subtle border */
 input[type="text"] {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     margin: 10px 0;
     border: 2px solid #3498db;
@@ -39,7 +37,7 @@ input[type="text"] {
 
 /* "Do Check My Profile" button with improved styling and margin */
 button#showDetails {
-    background-color: #3498db;
+     background-color: #3498db;
     color: #fff;
     border: none;
     padding: 12px 24px;
@@ -47,7 +45,7 @@ button#showDetails {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-    margin: 20px 5px;
+    margin: 20px 5px; 
 }
 
 button#showDetails:hover {
@@ -81,7 +79,7 @@ button#showDetails:hover {
 
 /* Subheading styles */
 .card-subHeading {
-    color: #555;
+    color: #1013ca;
 }
 
 /* Text styles */
@@ -101,12 +99,8 @@ button#showDetails:hover {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-    margin: 40px 5px;
-}
-
-.card-text button a:hover {
+   
+} .card-text button a:hover {
     background-color: #2980b9;
     text-decoration: none;
 }
-
-/* Customize further to your preferences */
