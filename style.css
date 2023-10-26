@@ -1,0 +1,112 @@
+/* Apply a soothing background gradient to the body */
+/* Apply a soothing background color to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Center the container with adjusted margins */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+/* Header styles with a pleasant color and margin */
+h1 {
+    font-size: 32px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Input styles with a subtle border */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* "Do Check My Profile" button with improved styling and margin */
+button#showDetails {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 20px 5px;
+}
+
+button#showDetails:hover {
+    background-color: #2980b9;
+}
+
+/* Profile and repo sections with margin */
+#profileInfo, #reposInfo {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+/* Card styles with a clean and modern look */
+.card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card title styles */
+.card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Subheading styles */
+.card-subHeading {
+    color: #555;
+}
+
+/* Text styles */
+.card-text p {
+    margin: 10px 0;
+    color: #777;
+}
+
+/* "Do Check My Project" button with vibrant color and more margin */
+.card-text button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 40px 5px;
+}
+
+.card-text button a:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+}
+
+/* Customize further to your preferences */
